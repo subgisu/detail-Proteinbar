@@ -89,14 +89,14 @@ export default function App() {
         <section className="relative w-full min-h-[800px] flex flex-col justify-between pt-24 pb-4 px-6 text-center overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0 z-0 bg-stone-900">
-            <img 
-              e.currentTarget.src = "/detail-Proteinbar/protin.png";
-              alt="단백질 바 메인 연출컷" 
-              className="w-full h-full object-cover opacity-90"
-              onError={(e) => {
-                e.currentTarget.src = "/protin.png";
-              }}
-            />
+          <img
+  src="/detail-Proteinbar/protin.png"
+  alt="단백질 바 메인 연출컷"
+  className="w-full h-full object-cover opacity-90"
+  onError={(e) => {
+    e.currentTarget.src = "/detail-Proteinbar/protin.png";
+  }}
+/>
           </div>
           
           {/* Top Blur Overlay for Text Readability */}
