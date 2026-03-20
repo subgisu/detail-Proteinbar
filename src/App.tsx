@@ -210,7 +210,7 @@ export default function App() {
           </svg>
         </div>
         {/* 3. Check Points (USP) */}
-        <section id="points" className="py-20 px-6 bg-black">
+        <section id="points" className="pt-8 pb-20 px-6 bg-black">
           <FadeIn>
             <div className="text-center mb-12">
               <p className="text-[#e1bebe] font-medium tracking-widest text-sm mb-2 drop-shadow-md">Check Point</p>
