@@ -90,7 +90,7 @@ export default function App() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0 bg-stone-900">
             <img 
-              src="/protin.png" 
+              e.currentTarget.src = "/detail-Proteinbar/protin.png";
               alt="단백질 바 메인 연출컷" 
               className="w-full h-full object-cover opacity-90"
               onError={(e) => {
