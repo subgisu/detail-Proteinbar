@@ -187,7 +187,28 @@ export default function App() {
             </FadeIn>
           </div>
         </section>
-
+{/* Wave Divider: Reviews → Check Points */}
+        <div className="relative w-full h-0 bg-black">
+          <svg 
+            viewBox="0 0 1440 120" 
+            className="absolute bottom-0 left-0 w-full" 
+            style={{ transform: 'translateY(1px)' }}
+            preserveAspectRatio="none"
+          >
+            <path 
+              d="M0,120 L0,60 Q180,0 360,50 Q540,100 720,50 Q900,0 1080,50 Q1260,100 1440,60 L1440,120 Z" 
+              fill="#000000"
+            />
+            <path 
+              d="M0,60 Q180,0 360,50 Q540,100 720,50 Q900,0 1080,50 Q1260,100 1440,60" 
+              fill="none" 
+              stroke="rgba(255,255,255,0.06)" 
+              strokeWidth="1"
+            />
+            <circle cx="720" cy="50" r="4" fill="rgba(249,115,22,0.4)" />
+            <circle cx="720" cy="50" r="1.5" fill="rgba(249,115,22,0.8)" />
+          </svg>
+        </div>
         {/* 3. Check Points (USP) */}
         <section id="points" className="py-20 px-6 bg-black">
           <FadeIn>
