@@ -94,7 +94,7 @@ export default function App() {
               alt="단백질 바 메인 연출컷" 
               className="w-full h-full object-cover opacity-90"
               onError={(e) => {
-                e.currentTarget.src = "https://images.unsplash.com/photo-1604514628550-37477afdf4e3?auto=format&fit=crop&q=80&w=1200";
+                e.currentTarget.src = "/protin.png";
               }}
             />
           </div>
