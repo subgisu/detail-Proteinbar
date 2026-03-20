@@ -1,3 +1,4 @@
+const BASE = import.meta.env.BASE_URL
 import React from 'react';
 import { motion } from 'motion/react';
 import { BatteryCharging, TrendingDown, Zap, ShieldCheck, ChevronDown, Star, Candy, Package, ShoppingCart } from 'lucide-react';
@@ -241,7 +242,7 @@ export default function App() {
             <div className="max-w-3xl mx-auto relative px-4 md:px-0">
               <div className="rounded-2xl overflow-hidden shadow-lg bg-white">
                 <video 
-                  src="/video.mp4" 
+                  src={`${BASE}video.mp4`}
                   autoPlay 
                   loop 
                   muted 
