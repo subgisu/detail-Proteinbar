@@ -415,7 +415,7 @@ export default function App() {
         </section>
 
         {/* 5. Bundle Section (Matched to Reference) */}
-        <section className="py-8 px-6 bg-[#F9F8F4] text-center">
+        <section className="py-15 px-6 bg-[#F9F8F4] text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-stone-800 tracking-tight">
               넉넉하게 즐기는<br />
