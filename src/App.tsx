@@ -271,7 +271,42 @@ export default function App() {
                   className="w-full h-auto object-cover aspect-[4/3] md:aspect-video"
                 />
               </div>
-              
+                {/* 6. Why Protein */}
+        <section className="py-20 px-6 bg-[#FBF8F3]">
+          <FadeIn>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="w-full md:w-2/5">
+                <img 
+                  src={`${BASE}illustratio.png`}
+                  alt="단백질 일러스트" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="w-full md:w-3/5">
+                <p className="text-orange-500 font-bold text-xs tracking-widest mb-4">WHY PROTEIN</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-stone-900 mb-8 leading-tight">
+                  주스 대신, 이제는<br />단백질 바로 채우세요
+                </h2>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="font-bold text-stone-800 mb-1">근육 회복</h3>
+                    <p className="text-stone-500 text-sm">운동 후 손상된 근육을 빠르게 회복시킵니다.</p>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-stone-800 mb-1">혈당 관리</h3>
+                    <p className="text-stone-500 text-sm">혈당 스파이크 없이 안정적으로 에너지를 공급합니다.</p>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-stone-800 mb-1">간편한 충전</h3>
+                    <p className="text-stone-500 text-sm">포장만 뜯으면 언제 어디서나 단백질을 보충합니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </section>
+
+        {/* 7. Trust & Info */}
               {/* Badge */}
               <div className="absolute -top-6 -right-2 md:-right-6 w-28 h-28 md:w-32 md:h-32 bg-white rounded-full shadow-xl flex flex-col items-center overflow-hidden border-[6px] border-white z-10">
                 <div className="bg-[#4A3728] w-full h-[45%] flex items-center justify-center">
@@ -506,42 +541,7 @@ export default function App() {
           </FadeIn>
         </section>
 
-      {/* 6. Why Protein */}
-        <section className="py-20 px-6 bg-[#FBF8F3]">
-          <FadeIn>
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="w-full md:w-2/5">
-                <img 
-                  src={`${BASE}illustratio.png`}
-                  alt="단백질 일러스트" 
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="w-full md:w-3/5">
-                <p className="text-orange-500 font-bold text-xs tracking-widest mb-4">WHY PROTEIN</p>
-                <h2 className="text-2xl md:text-3xl font-bold text-stone-900 mb-8 leading-tight">
-                  주스 대신, 이제는<br />단백질 바로 채우세요
-                </h2>
-                <div className="space-y-6">
-                  <div>
-                    <h3 className="font-bold text-stone-800 mb-1">근육 회복</h3>
-                    <p className="text-stone-500 text-sm">운동 후 손상된 근육을 빠르게 회복시킵니다.</p>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-stone-800 mb-1">혈당 관리</h3>
-                    <p className="text-stone-500 text-sm">혈당 스파이크 없이 안정적으로 에너지를 공급합니다.</p>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-stone-800 mb-1">간편한 충전</h3>
-                    <p className="text-stone-500 text-sm">포장만 뜯으면 언제 어디서나 단백질을 보충합니다.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-        </section>
-
-        {/* 7. Trust & Info */}
+   
         <section className="relative py-24 px-6 border-t border-stone-200 overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
