@@ -21,7 +21,7 @@ const flavors = [
     tag: '고단백',
     desc: '고소한 땅콩과 달콤한 카라멜의 단짠 조합',
     color: 'bg-[#D9772B]', // 피넛버터/카라멜 색상
-    img: '/caramelback.png',
+    img: '/caramel.png',
     packageImg: '/caramel.png',
     packageClass: 'h-72 md:h-96', // 피넛 이미지가 작아 보여서 크기를 조금 더 키움
     nutrition: { kcal: '190', protein: '21', proteinPct: '38', fat: '6.0', fatPct: '11', sugar: '1.8', sugarPct: '2' },
