@@ -272,7 +272,7 @@ export default function App() {
                 />
               </div>
                 {/* 6. Why Protein */}
-        <section className="py-150 px-6 bg-[#FBF8F3]">
+        <section className="py-15 px-6 bg-[#FBF8F3]">
           <FadeIn>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-2/5">
@@ -415,7 +415,7 @@ export default function App() {
         </section>
 
         {/* 5. Bundle Section (Matched to Reference) */}
-        <section className="py-20 px-6 bg-[#F9F8F4] text-center">
+        <section className="py-8 px-6 bg-[#F9F8F4] text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-stone-800 tracking-tight">
               넉넉하게 즐기는<br />
