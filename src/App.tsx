@@ -325,27 +325,18 @@ export default function App() {
             {flavors.map((flavor, idx) => (
               <FadeIn key={flavor.id} delay={0.1}>
                 <div className="bg-white pb-5 border-b border-stone-100 last:border-0">
-                  {/* Image Area with Overlapping Package */}
-                  <div className="w-full relative bg-stone-100 overflow-hidden">
-                    {flavor.img && (
-                      <img 
-                        src={flavor.img} 
-                        alt={flavor.name}
-                        className="w-full h-full object-cover"
-                        referrerPolicy="no-referrer"
-                      />
-                    )}
-                    {/* Package Image Overlap (Reference Style) */}
+                  {/* Image Area */}
+                  <div className="w-full bg-stone-100 flex items-center justify-center py-12">
                     <img 
                       src={flavor.packageImg} 
                       alt={`${flavor.name} 패키지`} 
-                     className={`absolute -bottom-12 left-1/2 -translate-x-1/2 w-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 ${flavor.packageClass}`}
+                      className={`w-auto object-contain drop-shadow-2xl ${flavor.packageClass}`}
                       referrerPolicy="no-referrer"
                     />
                   </div>
                   
                   {/* Content Area */}
-                  <div className="pt-32 md:pt-40 px-6 max-w-4xl mx-auto">
+                  <div className="pt-8 px-6 max-w-4xl mx-auto">
                     {/* Tags */}
                     <div className="flex items-center gap-2 mb-4">
                       <span className={`px-4 py-1.5 text-white font-bold text-base md:text-lg rounded-sm ${flavor.color}`}>
