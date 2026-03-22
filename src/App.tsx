@@ -318,7 +318,7 @@ export default function App() {
         </section>
 
         {/* 4. Flavor Lineup (Matched to Reference) */}
-        <section id="lineup" className="relative pt-20 pb-16 bg-F9F3EB">
+        <section id="lineup" className="relative pt-20 pb-16 bg-F5F1EA">
           {/* Top Torn Wrapper Edge (Foil + White) - Slanted */}
           <div className="absolute top-0 -left-[5%] w-[110%] h-32 -mt-12 z-20 -rotate-2 flex flex-col pointer-events-none">
             <div 
