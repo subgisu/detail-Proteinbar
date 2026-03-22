@@ -326,15 +326,15 @@ export default function App() {
               <FadeIn key={flavor.id} delay={0.1}>
                 <div className="bg-white pb-5 border-b border-stone-100 last:border-0">
                   {/* Image Area */}
-                 <div className="w-full bg-stone-100 flex items-center justify-center py-4">
+                 <div className="w-full bg-stone-100 flex items-center justify-center p-8">
                     <img 
                       src={flavor.packageImg} 
                       alt={`${flavor.name} 패키지`} 
-                      className={`w-auto object-contain drop-shadow-2xl ${flavor.packageClass}`}
+                      className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
                       referrerPolicy="no-referrer"
                     />
                   </div>
-                  
+                 
                   {/* Content Area */}
                   <div className="pt-8 px-6 max-w-4xl mx-auto">
                     {/* Tags */}
