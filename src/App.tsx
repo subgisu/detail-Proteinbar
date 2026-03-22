@@ -44,7 +44,7 @@ const flavors = [
     desc: '상큼한 베리를 입혀 새콤달콤한 감칠맛이 살아있는 맛',
     color: 'bg-[#C84B31]', // 베리 붉은색
     img: '/yogurtback.png',
-    : '/yogurt.png',
+   packageImg: '/yogurt.png',
     packageClass: 'h-64 md:h-80',
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
