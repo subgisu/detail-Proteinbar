@@ -33,7 +33,7 @@ packageImg: '/detail-Proteinbar/dark.png',
     desc: '제주 유기농 말차로 산뜻하게 즐기는 깔끔한 풍미',
     color: 'bg-[#5B8C5A]', // 말차 녹색
   img: '',
-packageImg: '/detail-Proteinbar/matcha.png',
+packageImg: '/detail-Proteinbar/matchaback.png',
   packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '180', protein: '20', proteinPct: '36', fat: '4.5', fatPct: '8', sugar: '1.2', sugarPct: '1' },
   },
