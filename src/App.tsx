@@ -415,13 +415,13 @@ export default function App() {
         </section>
 
         {/* 5. Bundle Section (Matched to Reference) */}
-        <section className="py-18 px-6 bg-[#F9F8F4] text-center">
+        <section className="py-20 px-6 bg-[#F9F8F4] text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-stone-800 tracking-tight">
               넉넉하게 즐기는<br />
               10개입 번들 구성
             </h2>
-            <p className="text-stone-600 mb-8 break-keep leading-relaxed font-medium">
+            <p className="text-stone-600 mb-4 break-keep leading-relaxed font-medium">
               넉넉하게 준비하는 <span className="font-bold text-stone-900">10개입 번들 구성</span>입니다.<br />
               실온 보관 후 필요할 때마다 간편하게 꺼내 드실 수 있습니다.<br />
               여유 있게 보관하기 좋은 구성입니다.
