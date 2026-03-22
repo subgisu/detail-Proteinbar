@@ -44,7 +44,7 @@ const flavors = [
     desc: '상큼한 베리를 입혀 새콤달콤한 감칠맛이 살아있는 맛',
     color: 'bg-[#C84B31]', // 베리 붉은색
     img: '/yogurtback.png',
-    packageImg: '/yogurt.png',
+    : '/yogurt.png',
     packageClass: 'h-64 md:h-80',
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
@@ -327,9 +327,9 @@ export default function App() {
                 <div className="bg-white pb-20 border-b border-stone-100 last:border-0">
                   {/* Image Area with Overlapping Package */}
                   <div className="w-full h-64 md:h-96 relative bg-stone-100 flex items-center justify-center">
-                    <img 
-                      src={flavor.img} 
-                      alt={flavor.name} 
+                    {flavor.img && <img 
+  src={flavor.img} 
+  alt={flavor.name}
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
                     />
@@ -337,7 +337,7 @@ export default function App() {
                     <img 
                       src={flavor.packageImg} 
                       alt={`${flavor.name} 패키지`} 
-                      className={`absolute -bottom-24 md:-bottom-32 left-1/2 -translate-x-1/2 z-10 w-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 ${flavor.packageClass}`}
+                     className={`absolute -bottom-12 left-1/2 -translate-x-1/2 w-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 ${flavor.packageClass}`}
                       referrerPolicy="no-referrer"
                     />
                   </div>
