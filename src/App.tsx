@@ -318,7 +318,7 @@ export default function App() {
         </section>
 
         {/* 4. Flavor Lineup (Matched to Reference) */}
-        <section id="lineup" className="relative pt-20 pb-16 bg-white">
+        <section id="lineup" className="relative pt-20 pb-16 bg-F9F3EB">
           {/* Top Torn Wrapper Edge (Foil + White) - Slanted */}
           <div className="absolute top-0 -left-[5%] w-[110%] h-32 -mt-12 z-20 -rotate-2 flex flex-col pointer-events-none">
             <div 
@@ -349,7 +349,7 @@ export default function App() {
               <p className="text-stone-500 font-serif text-lg tracking-wider">Flavor</p>
               <div className="h-[1px] bg-stone-300 flex-1"></div>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-stone-800 tracking-tight">4가지 맛 단백질 바</h2>
+            <h2 className="text-3xl md:text-6xl font-bold text-stone-800 tracking-tight">4가지 맛 단백질 바</h2>
           </div>
 
           <div className="space-y-0">
