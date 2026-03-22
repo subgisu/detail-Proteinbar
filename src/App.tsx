@@ -411,7 +411,7 @@ export default function App() {
         </section>
 
         {/* 5. Bundle Section (Matched to Reference) */}
-        <section className="py-25 px-6 bg-[#F9F8F4] text-center">
+        <section className="py-30 px-6 bg-[#F9F8F4] text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-stone-800 tracking-tight">
               넉넉하게 즐기는<br />
@@ -423,7 +423,7 @@ export default function App() {
               여유 있게 보관하기 좋은 구성입니다.
             </p>
 
-            <div className="mb-4 relative max-w-2xl mx-auto mt-8">
+            <div className="mb-4 relative max-w-2xl mx-auto mt-4">
               <svg width="100%" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl transition-transform hover:scale-[1.02] duration-300">
                 <defs>
                   <linearGradient id="boxg" x1="0" y1="0" x2="0" y2="1">
