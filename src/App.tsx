@@ -1,4 +1,4 @@
-const BASE = import.meta.env.BASE_URL
+ const BASE = import.meta.env.BASE_URL
 import React from 'react';
 import { motion } from 'motion/react';
 import { BatteryCharging, TrendingDown, Zap, ShieldCheck, ChevronDown, Star, Candy, Package, ShoppingCart } from 'lucide-react';
@@ -327,12 +327,14 @@ export default function App() {
                 <div className="bg-white pb-20 border-b border-stone-100 last:border-0">
                   {/* Image Area with Overlapping Package */}
                   <div className="w-full h-64 md:h-96 relative bg-stone-100 flex items-center justify-center">
-                    {flavor.img && <img 
-  src={flavor.img} 
-  alt={flavor.name}
-                      className="w-full h-full object-cover"
-                      referrerPolicy="no-referrer"
-                    />
+                    {flavor.img && (
+                      <img 
+                        src={flavor.img} 
+                        alt={flavor.name}
+                        className="w-full h-full object-cover"
+                        referrerPolicy="no-referrer"
+                      />
+                    )}
                     {/* Package Image Overlap (Reference Style) */}
                     <img 
                       src={flavor.packageImg} 
