@@ -268,7 +268,7 @@ export default function App() {
                 />
               </div>
                 {/* 6. Why Protein */}
-        <section className="py-15 px-6 bg-[#FBF8F3]">
+        <section className="pt-20 pb-4 px-6 bg-[#FBF8F3]">
           <FadeIn>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-2/5">
