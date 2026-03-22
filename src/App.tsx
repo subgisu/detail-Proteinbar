@@ -326,7 +326,7 @@ export default function App() {
               <FadeIn key={flavor.id} delay={0.1}>
                 <div className="bg-white pb-20 border-b border-stone-100 last:border-0">
                   {/* Image Area with Overlapping Package */}
-                  <div className="w-full h-64 md:h-96 relative bg-stone-100 flex items-center justify-center">
+                  <div className="w-full aspect-[4/3] relative bg-stone-100 flex items-center justify-center">
                     {flavor.img && (
                       <img 
                         src={flavor.img} 
