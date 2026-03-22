@@ -10,8 +10,8 @@ const flavors = [
     tag: '고단백',
     desc: '진한 카카오의 풍미를 살린 부담 없는 맛',
     color: 'bg-[#4A3728]', // 진한 초코색
-    img: '/darkback.png',
-    packageImg: '/dark.png',
+    img: '/detail-Proteinbar/dark.png',
+    packageImg: '/detail-Proteinbar/dark.png',
     packageClass: 'h-64 md:h-80',
     nutrition: { kcal: '185', protein: '20', proteinPct: '36', fat: '5.0', fatPct: '9', sugar: '1.5', sugarPct: '1' },
   },
@@ -32,8 +32,8 @@ const flavors = [
     tag: '고단백',
     desc: '제주 유기농 말차로 산뜻하게 즐기는 깔끔한 풍미',
     color: 'bg-[#5B8C5A]', // 말차 녹색
-    img: '/matchaback.png',
-    packageImg: '/matcha.png',
+    img: '/detail-Proteinbar/matcha.png',
+    packageImg: '/detail-Proteinbar/matcha.png',
     packageClass: 'h-64 md:h-80',
     nutrition: { kcal: '180', protein: '20', proteinPct: '36', fat: '4.5', fatPct: '8', sugar: '1.2', sugarPct: '1' },
   },
@@ -43,8 +43,8 @@ const flavors = [
     tag: '고단백',
     desc: '상큼한 베리를 입혀 새콤달콤한 감칠맛이 살아있는 맛',
     color: 'bg-[#C84B31]', // 베리 붉은색
-    img: '/yogurtback.png',
-   packageImg: '/yogurt.png',
+    img: '/detail-Proteinbar/yogurtback.png',
+   packageImg: '/detail-Proteinbar/yogurtback.png',
     packageClass: 'h-64 md:h-80',
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
