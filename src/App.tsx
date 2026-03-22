@@ -326,7 +326,7 @@ export default function App() {
               <FadeIn key={flavor.id} delay={0.1}>
                 <div className="bg-white pb-5 border-b border-stone-100 last:border-0">
                   {/* Image Area */}
-                  <div className="w-full bg-stone-100 flex items-center justify-center py-12">
+                 <div className="w-full bg-stone-100 flex items-center justify-center py-4">
                     <img 
                       src={flavor.packageImg} 
                       alt={`${flavor.name} 패키지`} 
