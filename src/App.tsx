@@ -106,18 +106,14 @@ export default function App() {
           <div className="absolute inset-0 z-0 h-3/5 bg-gradient-to-b from-black/90 via-black/50 to-transparent backdrop-blur-md [mask-image:linear-gradient(to_bottom,black_40%,transparent_100%)]"></div>
 
           {/* Copy (Top) */}
-          <div className="relative z-10 mt-4">
-            <FadeIn>
-              <p className="text-orange-400 font-bold tracking-widest text-sm mb-4 drop-shadow-md">근육단단 단백질 바</p>
-              <h1 className="text-4xl md:text-5xl font-black leading-tight mb-6 break-keep text-white drop-shadow-lg">
+           <FadeIn>
+              <h1 className="text-6xl md:text-8xl font-brush leading-tight mb-10 break-keep text-white drop-shadow-2xl tracking-wide">
                 단백질 바는 맛없다는 편견,<br />
                 <span className="text-orange-400">근육단단이 깹니다.</span>
               </h1>
-              <p className="text-stone-200 text-lg mb-10 break-keep drop-shadow-md font-medium">
-                꾸덕한 브라우니 식감 그대로,<br />당류는 낮추고 단백질은 꽉 채웠습니다.
-              </p>
             </FadeIn>
           </div>
+
 
           {/* Nutrition Grid (Bottom) */}
           <div className="relative z-10 mt-auto pt-48">
