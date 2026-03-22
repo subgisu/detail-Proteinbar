@@ -506,7 +506,46 @@ export default function App() {
           </FadeIn>
         </section>
 
-        {/* 6. Trust & Info */}
+        {/* 6. Why Protein — Illustration + Benefits */}
+        <section className="py-20 px-6 bg-[#FBF8F3]">
+          <FadeIn>
+            <div className="flex flex-col md:flex-row items-start gap-10">
+              <div className="w-full md:w-2/5 flex-shrink-0">
+                <img 
+                  src={`${BASE}illustratio.png`}
+                  alt="단백질 일러스트" 
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="w-full md:w-3/5">
+                <p className="text-orange-500 font-bold text-sm tracking-widest mb-3">WHY PROTEIN</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-10 leading-tight">
+                  주스 대신, 이제는<br />단백질 바로 채우세요
+                </h2>
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-lg font-bold text-stone-800 mb-1">근육 건강과 회복</h3>
+                    <p className="text-stone-500 text-sm leading-relaxed">운동 후 손상된 근육을 빠르게 회복시키고, 일상에 필요한 근력을 유지합니다.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-stone-800 mb-1">안정적인 혈당 관리</h3>
+                    <p className="text-stone-500 text-sm leading-relaxed">혈당 스파이크 없이 에너지를 공급해 식곤증과 급격한 피로를 줄여줍니다.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-stone-800 mb-1">오래가는 포만감</h3>
+                    <p className="text-stone-500 text-sm leading-relaxed">소화가 느려 포만감이 오래 지속되어 불필요한 과식을 예방합니다.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-stone-800 mb-1">간편한 에너지 충전</h3>
+                    <p className="text-stone-500 text-sm leading-relaxed">포장만 뜯으면 언제 어디서나 양질의 단백질을 바로 보충할 수 있습니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </section>
+
+        {/* 7. Trust & Info */}
         <section className="relative py-24 px-6 border-t border-stone-200 overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
