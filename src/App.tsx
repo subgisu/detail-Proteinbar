@@ -12,7 +12,7 @@ const flavors = [
     color: 'bg-[#4A3728]', // 진한 초코색
    img: '',
 packageImg: '/detail-Proteinbar/dark.png',
-    packageClass: 'h-64 md:h-80',
+    packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '185', protein: '20', proteinPct: '36', fat: '5.0', fatPct: '9', sugar: '1.5', sugarPct: '1' },
   },
   {
@@ -34,7 +34,7 @@ packageImg: '/detail-Proteinbar/dark.png',
     color: 'bg-[#5B8C5A]', // 말차 녹색
   img: '',
 packageImg: '/detail-Proteinbar/matcha.png',
-    packageClass: 'h-64 md:h-80',
+  packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '180', protein: '20', proteinPct: '36', fat: '4.5', fatPct: '8', sugar: '1.2', sugarPct: '1' },
   },
   {
@@ -45,7 +45,7 @@ packageImg: '/detail-Proteinbar/matcha.png',
     color: 'bg-[#C84B31]', // 베리 붉은색
 img: '',
 packageImg: '/detail-Proteinbar/yogurtback.png',
-    packageClass: 'h-64 md:h-80',
+    packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
 ];
