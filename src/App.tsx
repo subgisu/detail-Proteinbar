@@ -10,8 +10,8 @@ const flavors = [
     tag: '고단백',
     desc: '진한 카카오의 풍미를 살린 부담 없는 맛',
     color: 'bg-[#4A3728]', // 진한 초코색
-   img: '',
-packageImg: '/detail-Proteinbar/dark.png',
+    img: '',
+    packageImg: `${BASE}dark.png`,
     packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '185', protein: '20', proteinPct: '36', fat: '5.0', fatPct: '9', sugar: '1.5', sugarPct: '1' },
   },
@@ -20,10 +20,10 @@ packageImg: '/detail-Proteinbar/dark.png',
     name: '피넛 카라멜',
     tag: '고단백',
     desc: '고소한 땅콩과 달콤한 카라멜의 단짠 조합',
-    color: 'bg-[#D9772B]', // 피넛버터/카라멜 색상
+    color: 'bg-[#D9772B]',
     img: '',
-    packageImg: '/detail-Proteinbar/caramel.png',
-    packageClass: 'h-96 md:h-[32rem]',// 피넛 이미지가 작아 보여서 크기를 조금 더 키움
+    packageImg: `${BASE}caramel.png`,
+    packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '190', protein: '21', proteinPct: '38', fat: '6.0', fatPct: '11', sugar: '1.8', sugarPct: '2' },
   },
   {
@@ -31,10 +31,10 @@ packageImg: '/detail-Proteinbar/dark.png',
     name: '말차맛',
     tag: '고단백',
     desc: '제주 유기농 말차로 산뜻하게 즐기는 깔끔한 풍미',
-    color: 'bg-[#5B8C5A]', // 말차 녹색
-  img: '',
-packageImg: '/detail-Proteinbar/matchaback.png',
-  packageClass: 'h-96 md:h-[32rem]',
+    color: 'bg-[#5B8C5A]',
+    img: '',
+    packageImg: `${BASE}matchaback.png`,
+    packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '180', protein: '20', proteinPct: '36', fat: '4.5', fatPct: '8', sugar: '1.2', sugarPct: '1' },
   },
   {
@@ -42,9 +42,9 @@ packageImg: '/detail-Proteinbar/matchaback.png',
     name: '베리 요거트',
     tag: '고단백',
     desc: '상큼한 베리를 입혀 새콤달콤한 감칠맛이 살아있는 맛',
-    color: 'bg-[#C84B31]', // 베리 붉은색
-img: '',
-packageImg: '/detail-Proteinbar/yogurtback.png',
+    color: 'bg-[#C84B31]',
+    img: '',
+    packageImg: `${BASE}yogurtback.png`,
     packageClass: 'h-96 md:h-[32rem]',
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
@@ -97,7 +97,7 @@ export default function App() {
   alt="단백질 바 메인 연출컷"
   className="w-full h-full object-cover opacity-90"
   onError={(e) => {
-    e.currentTarget.src = "/detail-Proteinbar/protin.png";
+    e.currentTarget.src = `${BASE}protin.png`;
   }}
 />
           </div>
