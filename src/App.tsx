@@ -357,11 +357,11 @@ export default function App() {
               <FadeIn key={flavor.id} delay={0.1}>
                 <div className="bg-white pb-5 border-b border-stone-100 last:border-0">
                   {/* Image Area */}
-                 <div className="w-full bg-stone-100 flex items-center justify-center p-8">
-                    <img 
-                      src={flavor.packageImg} 
-                      alt={`${flavor.name} 패키지`} 
-                      className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
+                 <div className="w-full bg-stone-100">
+                    <img
+                      src={flavor.packageImg}
+                      alt={`${flavor.name} 패키지`}
+                      className="w-full h-auto object-cover"
                       referrerPolicy="no-referrer"
                     />
                   </div>
