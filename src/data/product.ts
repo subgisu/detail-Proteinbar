@@ -19,6 +19,8 @@ export interface Flavor {
   nutrition: FlavorNutrition;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 export const flavors: Flavor[] = [
   {
     id: 'choco',
@@ -26,8 +28,8 @@ export const flavors: Flavor[] = [
     tag: '고단백',
     desc: '진한 카카오의 풍미를 살린 부담 없는 맛',
     color: 'bg-[#4A3728]',
-    img: 'https://picsum.photos/seed/choco_plate/800/600',
-    packageImg: 'https://picsum.photos/seed/choco_pack/300/400',
+    img: `${BASE}dark.png`,
+    packageImg: `${BASE}dark.png`,
     nutrition: { kcal: '185', protein: '20', proteinPct: '36', fat: '5.0', fatPct: '9', sugar: '1.5', sugarPct: '1' },
   },
   {
@@ -36,8 +38,8 @@ export const flavors: Flavor[] = [
     tag: '고단백',
     desc: '고소한 땅콩과 달콤한 카라멜의 단짠 조합',
     color: 'bg-[#D9772B]',
-    img: 'https://picsum.photos/seed/peanut_plate/800/600',
-    packageImg: 'https://picsum.photos/seed/peanut_pack/300/400',
+    img: `${BASE}caramel.png`,
+    packageImg: `${BASE}caramel.png`,
     nutrition: { kcal: '190', protein: '21', proteinPct: '38', fat: '6.0', fatPct: '11', sugar: '1.8', sugarPct: '2' },
   },
   {
@@ -46,8 +48,8 @@ export const flavors: Flavor[] = [
     tag: '고단백',
     desc: '제주 유기농 말차로 산뜻하게 즐기는 깔끔한 풍미',
     color: 'bg-[#5B8C5A]',
-    img: 'https://picsum.photos/seed/matcha_plate/800/600',
-    packageImg: 'https://picsum.photos/seed/matcha_pack/300/400',
+    img: `${BASE}matcha.png`,
+    packageImg: `${BASE}matchaback.png`,
     nutrition: { kcal: '180', protein: '20', proteinPct: '36', fat: '4.5', fatPct: '8', sugar: '1.2', sugarPct: '1' },
   },
   {
@@ -56,8 +58,8 @@ export const flavors: Flavor[] = [
     tag: '고단백',
     desc: '상큼한 베리를 입혀 새콤달콤한 감칠맛이 살아있는 맛',
     color: 'bg-[#C84B31]',
-    img: 'https://picsum.photos/seed/berry_plate/800/600',
-    packageImg: 'https://picsum.photos/seed/berry_pack/300/400',
+    img: `${BASE}yogurtback.png`,
+    packageImg: `${BASE}yogurtback.png`,
     nutrition: { kcal: '175', protein: '19', proteinPct: '35', fat: '4.0', fatPct: '7', sugar: '2.0', sugarPct: '2' },
   },
 ];
